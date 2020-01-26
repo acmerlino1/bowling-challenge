@@ -2,6 +2,12 @@
 Bowling Challenge
 =================
 
+A simple  program to keep track of scores in a bowling game. This is a frontend app, using javascript. The user can enter the number of pins they knock down each turn and get the score back taking into account spares and strikes.
+
+Set up
+
+
+
 
 * Challenge time: rest of the day and weekend.
 * Feel free to use google, your notes, books, etc. but work on your own

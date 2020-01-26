@@ -3,4 +3,7 @@ var Bowling = function() {
   this.rollOne = function(pins){
     this.score += pins;
   };
+  this.rollTwo = function(pins){
+    this.score += pins;
+  };
 }
