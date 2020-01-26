@@ -10,14 +10,14 @@ describe("bowling", function() {
 
   it("accumulates points after roll 1", function(){
     var bowling = new Bowling;
-    bowling.rollOne(5);
+    bowling.roll(5);
     expect(bowling.score).toEqual(5);
   })
 
   it("accumulates points after roll 2",function() {
     var bowling = new Bowling;
-    bowling.rollOne(5);
-    bowling.rollTwo(4);
+    bowling.roll(5);
+    bowling.roll(4);
     expect(bowling.score).toEqual(9);
   })
 });
